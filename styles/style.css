@@ -1,0 +1,32 @@
+img {
+	width: 100px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 5px lightgrey;
+}
+
+h1, p {
+
+}
+
+h1{
+	color: darksalmon;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 3em;
+}
+p {
+	color: grey;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bio-block{
+	width: 30%;
+	background-color: #f9f9f9;
+	border-radius: 2.5%;
+	padding: 20px;
+	margin: 20px;
+}
