@@ -5,16 +5,25 @@
 	<title>About Demetria</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light&display=swap" rel="stylesheet">
-
 </head>
 	<body>
-		<div class="bio-block">
-
-			<h1>About Demetria</h1>
-			<img src="demetria-11-19-square.png" alt="Demetria">
+	<input type="image" class=arrow id="arrowPic" src="arrow.png" alt="Please click." />
+	<script>
+		let arrowClick = document.getElementById("arrowPic");
+		let onArrowClick;
+		onArrowClick = function() {
+			let arrowClick = document.getElementById("arrowPic");
+		   arrowClick.parentNode.removeChild(arrowClick);
+		};
+		arrowClick.addEventListener("click", onArrowClick);
+	</script>
+	<div class="bio-block">
+	<h1>About Demetria</h1>
+			<img class=pic src="demetria-11-19-square.png" alt="Demetria">
 			<p>Demetria was born and raised in Albuquerque, New Mexico.</p>
 			<p>For about 8 years, Demetria lived in the Pacific Northwest where she earned her Bachelor's Degree and started her Graphic Design business.</p>
-			<p>In 2019, Demetria returned to her roots, where she now resides and is taking a Fullstack Bootcamp. She intends to couple these new skills with her Graphic Design experience</p>
+			<p>In 2019, Demetria returned to her roots, where she now resides and is taking a Fullstack Bootcamp. She intends to couple these new skills with her Graphic Design experience.</p>
 		</div>
+	<p style="font-size: 5px">I added the last period.</p>
 	</body>
 </html>

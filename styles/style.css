@@ -1,4 +1,4 @@
-img {
+.pic {
 	width: 100px;
 	border-radius: 50%;
 	display: block;
@@ -23,7 +23,18 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.arrow{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
 .bio-block{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
 	width: 30%;
 	background-color: #f9f9f9;
 	border-radius: 2.5%;
